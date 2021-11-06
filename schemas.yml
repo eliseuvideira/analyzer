@@ -14,42 +14,15 @@ components:
       required:
         - message
 
-    Book:
+    WebsitePostRequestBody:
       type: object
       properties:
-        bookId:
-          type: integer
-          example: 1
-        title:
+        url:
           type: string
-          example: Moby-Dick
-        author:
-          type: string
-          example: Herman Melville
+          example: https://www.binance.us/en/home
       required:
-        - bookId
-        - title
-        - author
 
-    BookPostRequestBody:
+    Website:
       type: object
       properties:
-        title:
-          type: string
-          example: Moby-Dick
-        author:
-          type: string
-          example: Herman Melville
       required:
-        - title
-        - author
-
-    BookPatchRequestBody:
-      type: object
-      properties:
-        title:
-          type: string
-          example: Moby-Dick
-        author:
-          type: string
-          example: Herman Melville
