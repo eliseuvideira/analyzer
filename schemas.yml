@@ -14,15 +14,20 @@ components:
       required:
         - message
 
+    OutputEnum:
+      type: string
+      enum: ["text", "json"]
+      example: "text"
+
+    Website:
+      type: object
+      properties:
+      required:
+
     WebsitePostRequestBody:
       type: object
       properties:
         url:
           type: string
           example: https://www.binance.us/en/home
-      required:
-
-    Website:
-      type: object
-      properties:
       required:

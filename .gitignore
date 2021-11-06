@@ -1,6 +1,8 @@
 build/
 coverage/
 node_modules/
+storage/*
 .env
 *.error
 *.log
+!storage/.gitkeep

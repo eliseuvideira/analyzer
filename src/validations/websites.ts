@@ -5,3 +5,9 @@ export const websitesPostOneBody = Joi.object()
     url: Joi.string().uri().required(),
   })
   .required();
+
+export const websitesPostOneQuery = Joi.object()
+  .keys({
+    output: Joi.string().valid("text", "json").default("text"),
+  })
+  .required();

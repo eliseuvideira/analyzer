@@ -2,6 +2,8 @@
 build/
 node_modules/
 scripts/
+storage/*
 .env
 *.error
 *.log
+!storage/.gitkeep

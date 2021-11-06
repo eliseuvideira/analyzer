@@ -10,6 +10,7 @@ const router = Router();
  * POST /websites
  * @tag Websites
  * @security BearerAuth
+ * @queryParam {OutputEnum} [output]
  * @bodyContent {WebsitePostRequestBody} application/json
  * @response 200
  * @responseContent {Website} 200.application/json

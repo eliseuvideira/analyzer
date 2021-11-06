@@ -5,5 +5,7 @@ declare namespace NodeJS {
     API_NAME: string;
     API_TOKEN: string;
     API_IMAGE: string;
+    API_URL: string;
+    HEADLESS: "0" | "1";
   }
 }
